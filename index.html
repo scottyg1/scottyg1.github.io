@@ -45,7 +45,7 @@
     <a href="#other"><h3>Other Preperation</h3></a>
     </div>
 
-   <div class="okt"><a href="https://www.nomadicmatt.com/travel-blogs/how-to-survive-oktoberfest/"><img src="https://media.nomadicmatt.com/oktoberfestmatt.jpg"  width="800"></a></div><!remove 1 on src>
+   <div class="okt"><a href="https://www.nomadicmatt.com/travel-blogs/how-to-survive-oktoberfest/"><img src="1https://media.nomadicmatt.com/oktoberfestmatt.jpg"  width="800"></a></div><!remove 1 on src>
 
   <h2 id="pl">Places</h2>
   <p>List of countries I am considering visiting:</p>
@@ -85,6 +85,19 @@
   </ul>
 
   <h2 id=bud"">Budget</h2>
+  <p onload="init()">
+    <input type="text" id="USD" size="10" value="0" onchange="usdfunc()" />
+    <label for="USD"> USD </label>
+    </br>
+
+<input type="text" id="EUR" size="10" value="0" onchange="eurfunc()" />
+    <label for="EUR"> EUR </label>    
+   </br>
+
+<input type="text" id="GBP" size="10" value="0" onchange="gbpfunc()"/>
+    <label for="GBP"> GBP </label>
+    </br>
+</p>
   <ul>
     <li>create table</li>
     <li>create interactive calculator</li>
@@ -117,6 +130,35 @@
     <li>Phone plan</li> 
   </ul>
 
-    <script src="script.js"></script>
+
+
+    <script>      
+var gbp, usd, eur;
+function init()
+{
+    gbp = document.getElementById("GBP");
+    usd = document.getElementById("USD");
+    eur = document.getElementById("EUR");
+    }
+function usdfunc()
+{
+    gbp.value = parseFloat(usd.value) * 0.79;
+    eur.value = parseFloat(usd.value) * 0.88;
+    }
+ function eurfunc()
+{
+    gbp.value = parseFloat(eur.value) * 0.90;
+    usd.value = parseFloat(eur.value) * 1.14;
+}   
+function gbpfunc()
+{
+    usd.value = parseFloat(gbp.value) * 1.27;
+    eur.value = parseFloat(gbp.value) * 1.11;
+    }
+init();
+    
+    </script>
+
+
   </body>
 </html>
