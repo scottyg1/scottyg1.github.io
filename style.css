@@ -20,8 +20,8 @@ body{
 	      color: #555753; 
       	}
     h1{
-        text-align:center;
-        padding-bottom:30px;}
+        text-align:left;
+        }
     
     .headers{
         display: flex;
