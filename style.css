@@ -8,7 +8,7 @@
   padding-left:50px;
   padding-top:15px;
   margin-right:150px;
-}
+ }
 
 #quote{
   color:red;
@@ -52,10 +52,7 @@ body{
        padding-top:50px;
        padding-bottom:50px;
         }
-    #excel{
-      width:100%;
-	height: 500px;
-    }
+   
     
     a:link{color:black;}
     a:visited{color:black;}
