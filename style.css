@@ -1,13 +1,12 @@
 .title {
-  overflow: hidden;
   background-color: rgb(85,87,83);
   color: white;
-  position: fixed;
-  top:0;
-  width: 100%; 
+  position: sticky;
+  top:0px;
   padding-left:50px;
   padding-top:15px;
-  margin-right:150px;
+  padding-bottom:1px;
+  margin-bottom:10px;
  }
 
 #quote{
@@ -20,13 +19,13 @@
 }
 
 .main {
-  margin-top: 100px; 
+  margin-top: 0px; 
 }
 
 
 body{
   margin:50px;
-	margin-left:150px;
+  margin-left:150px;
 	margin-right:150px;
   font: 75% georgia, sans-serif;
 	color: #555753; 
@@ -52,7 +51,6 @@ body{
        padding-top:50px;
        padding-bottom:50px;
         }
-   
-    
+  
     a:link{color:black;}
     a:visited{color:black;}
