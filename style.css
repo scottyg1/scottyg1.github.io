@@ -33,19 +33,13 @@ body{
     h1{
         text-align:left;
         }
-    
+
     .headers{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom:-20px; 
-        border-top: 1px solid rgb(222, 222, 222);         
-        }
-    .headers2{
-        display: flex;
-        justify-content: space-between;
-        margin-top:-20px;
+        border-top: 1px solid rgb(222, 222, 222);
         border-bottom: 1px solid rgb(222, 222, 222);
-        }
+    }
+
+
     .pics{
        text-align:center;
        padding-top:50px;
