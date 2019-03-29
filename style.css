@@ -1,9 +1,9 @@
-.title {
+ .title {
   background-color: rgb(85,87,83);
   color: white;
   position: sticky;
   top:0px;
-  padding-left:150px;
+  padding-left:200px;
   padding-top:15px;
   padding-bottom:1px;
   margin-bottom:10px;
@@ -27,6 +27,7 @@
 
 
 body{
+  position:absolute;
   margin:50px;
   margin-left:150px;
 	margin-right:150px;
